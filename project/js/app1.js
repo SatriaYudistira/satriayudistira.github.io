@@ -39,7 +39,8 @@ function calculateGrowth(e) {
             growth = toDecimal(final, 2);
         }
         
-        message.innerText = `You will have $${growth} after ${period} years`;
+        document.getElementById('message').style.textAlign = 'center';
+        message.innerText = `The Results Are In\nIn ${period} years, you will have $${growth}`;
         drawGraph();
     } catch (error) {
         console.error(error);
