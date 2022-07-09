@@ -53,7 +53,7 @@ function drawGraph() {
         data: {
             labels,
             datasets: [{
-                label: "compound",
+                label: "Future Value",
                 data,
                 fill: true,
                 backgroundColor: "rgba(3, 149, 77, 1)",
