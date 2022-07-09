@@ -56,7 +56,7 @@ function drawGraph() {
                 label: "compound",
                 data,
                 fill: true,
-                backgroundColor: "rgba(64, 251, 7, 0.7)",
+                backgroundColor: "rgba(3, 149, 77, 1)",
                 borderWidth: 3
             }]
         }
